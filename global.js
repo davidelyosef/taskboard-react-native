@@ -1,0 +1,27 @@
+import { useId } from "react";
+
+export const dummyTasks = [
+  {value: "Clean the kitchen", id: Math.random()},
+  {value: "Walk the dog", id: Math.random()},
+  {value: "Take out the trash", id: Math.random()},
+  {value: "Do the laundry", id: Math.random()},
+  // "Take out the trash",
+  // "Walk the dog",
+  // "Do the laundry",
+  // "Buy groceries",
+  // "Water the plants",
+  // "Write a report",
+  // "Study for the exam",
+  // "Call Mom",
+  // "Exercise for 30 minutes",
+  // "Read a book",
+  // "Fix the leaking faucet",
+  // "Plan a weekend getaway",
+  // "Organize the closet",
+  // "Pay bills",
+  // "Cook dinner",
+  // "Learn a new language",
+  // "Attend a meeting",
+  // "Complete the project",
+  // "Practice the guitar",
+];
